@@ -173,7 +173,7 @@ insertBinaryTreeIfNotExists("Binary Tree Example", [
 
   const commonNodes = ["a", "b", "c", "d", "e", "f"].map(id => ({ id, label: id.toUpperCase() }));
 
-  insertGraphIfNotExists("BFS Directed", 1, commonNodes, [
+  insertGraphIfNotExists("Directed 1", 1, commonNodes, [
     { source: "a", target: "b" },
     { source: "b", target: "c" },
     { source: "b", target: "e" },
@@ -184,7 +184,7 @@ insertBinaryTreeIfNotExists("Binary Tree Example", [
     { source: "f", target: "e" }
   ]);
 
-  insertGraphIfNotExists("BFS Undirected", 0, commonNodes, [
+  insertGraphIfNotExists("Undirected 1", 0, commonNodes, [
     { source: "a", target: "b" },
     { source: "b", target: "c" },
     { source: "b", target: "d" },
@@ -195,7 +195,7 @@ insertBinaryTreeIfNotExists("Binary Tree Example", [
     { source: "f", target: "e" }
   ]);
 
-  insertGraphIfNotExists("DFS Directed", 1, commonNodes, [
+  insertGraphIfNotExists("Directed 2", 1, commonNodes, [
     { source: "a", target: "b" },
     { source: "a", target: "e" },
     { source: "b", target: "c" },
