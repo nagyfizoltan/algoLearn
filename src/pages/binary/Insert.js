@@ -313,7 +313,7 @@ const Insert = ({ sidebarWidth }) => {
         marginRight: "auto",
       }}>
         <Typography variant="body1" align="center" sx={{ color: "#555" }}>
-          The data structure must be modified in such a way that the properties of BST continue to hold. New nodes are inserted as leaf nodes in the BST.
+        To add a new node into a Binary Search Tree (BST), start at the root and recursively traverse the tree, moving left if the new value is smaller than the current node or right if it's larger. Once an empty position is found, insert the new node while maintaining the BST properties.
         </Typography>
       </Box>
       <Box sx={{ width: "50%", height: "300px", borderRadius: "16px", padding: "24px", background: "linear-gradient(135deg, #ffffff, #e3f2fd)", boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.2)" }}>
