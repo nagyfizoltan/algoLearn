@@ -1,0 +1,20 @@
+[
+    { "path": "/register", "name": "Register", "protected": false },
+    { "path": "/login", "name": "Login", "protected": false },
+    { "path": "/binary", "name": "Binary Menu", "protected": false },
+    { "path": "/graph", "name": "Graph Menu", "protected": false },
+    { "path": "/bfs", "name": "BFS Visualizer", "protected": false },
+    { "path": "/dfs", "name": "DFS Visualizer", "protected": false },
+    { "path": "/", "name": "Home", "protected": false },
+    { "path": "/myData", "name": "My Data", "protected": false },
+    { "path": "/about", "name": "About", "protected": false },
+    { "path": "/newGraph", "name": "New Graph", "protected": true },
+    { "path": "/insert-node", "name": "Node Insertion", "protected": false },
+    { "path": "/delete-node", "name": "Node Deletion", "protected": false },
+    { "path": "/search-node", "name": "Node Search", "protected": false },
+    { "path": "/pre-order", "name": "Pre-order Traversal", "protected": false },
+    { "path": "/in-order", "name": "In-order Traversal", "protected": false },
+    { "path": "/post-order", "name": "Post-order Traversal", "protected": false },
+    { "path": "/newBinary", "name": "New Binary", "protected": true },
+    { "path": "/profile", "name": "Profile", "protected": true }
+]  

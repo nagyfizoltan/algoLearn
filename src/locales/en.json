@@ -1,0 +1,226 @@
+{
+    "routes": {
+      "Register": "Register",
+      "Login": "Login",
+      "Binary Menu": "Binary Tree Algorithms",
+      "Graph Menu": "Graph Algorithms",
+      "BFS Visualizer": "BFS Visualizer",
+      "DFS Visualizer": "DFS Visualizer",
+      "Home": "Home",
+      "My Data": "Data Structures",
+      "About": "About",
+      "New Graph": "New Graph",
+      "New Binary": "New Binary Tree",
+      "Node Insertion": "Insert Node",
+      "Node Deletion": "Delete Node",
+      "Node Search": "Search Node",
+      "Pre-order Traversal": "Preorder Traversal",
+      "In-order Traversal": "Inorder Traversal",
+      "Post-order Traversal": "Postorder Traversal"
+    },
+    "error":{
+        "login": "Invalid email or password.",
+        "register": "Registration failed.",
+        "nameRequired": "Name is required.",
+        "emailRequired": "Email is required.",
+        "emailInvalid": "Please enter a valid email.",
+        "passwordRequired": "Password is required.",
+        "passwordWeak": "The password must be at least 6 characters long and contain uppercase and lowercase letters, numbers, and special characters.",
+        "passwordMismatch": "Passwords do not match.",
+        "passwordChange": "The current password is incorrect."
+    },
+    "brand": "AlgoLearn",
+    "searchPlaceholder": "Search...",
+    "login" : {
+        "title": "Login",
+        "email": "Email",
+        "password": "Password",
+        "notUser": "Not a user?",
+        "registerHere": "Register here",
+        "success": "Login successful!"
+    },
+    "profile": {
+      "title": "My Profile",
+      "name": "Username",
+      "email": "Email",
+      "updateButton": "Update Profile",
+      "updateSuccess": "Profile updated successfully!",
+      "changePassword": "Change Password",
+      "oldPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "changePasswordButton": "Change Password",
+      "passwordChangeSuccess": "Password changed successfully!",
+      "deleteAccount": "Delete Account",
+      "deleteConfirmTitle": "Confirm Account Deletion",
+      "deleteConfirmMessage": "Are you sure you want to delete your account? This action cannot be undone.",
+      "password": "Password",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete",
+      "deleteSuccess": "Account deleted successfully."
+    },
+    "register": {
+      "title": "Register",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "passwordAgain": "Password Again",
+      "success": "User registered successfully!"
+    },
+    "logout": "Logout",
+    "languages": {
+      "english": "English",
+      "hungarian": "Hungarian"
+    },
+    "about": {
+      "title": "About This Project",
+      "overview": {
+        "title": "Overview",
+        "description": "This project is designed to assist enthusiastic learners in getting familiar with basic binary search tree and graph algorithms by letting the user animate them in an engaging way."
+      },
+      "features": {
+        "title": "Features",
+        "list": [
+          "Visualize <strong>BST</strong> (binary search tree) and <strong>Graph</strong> algorithms in your desired speed.",
+          "Support for both <strong>undirected</strong> and <strong>directed</strong> graphs.",
+          "Complete your <strong>Registration</strong> to allow yourself to upload custom data to use in the system.",
+          "When creating your custom graph, you can add nodes, define if the graph should be directed or not, and add all your edges into the graph.",
+          "Nodes work similarly for custom binary search trees as well, after that, the system will generate all the other needed information for the tree."
+        ]
+      },
+      "myData": {
+        "title": "My Data",
+        "description": "Under the <strong>Data Structures</strong> section, you can manage uploaded or predefined graphs and trees by the system. View and explore your datasets."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "The goal of this tool is to make computer science concepts more approachable and engaging — especially for visual learners and algorithm enthusiasts.",
+        "footer": "Built with ❤️ and passion for CS students, teachers, and curious minds."
+      }
+    },
+    "binaryMenu": {
+      "title": "Binary Tree Algorithms",
+      "operations": {
+        "title": "Insert, Delete, Search",
+        "insert": "Insert Node",
+        "delete": "Delete Node",
+        "search": "Search Node"
+      },
+      "traversals": {
+        "title": "Traversals",
+        "preOrder": "Pre-order Traversal",
+        "inOrder": "In-order Traversal",
+        "postOrder": "Post-order Traversal"
+      }
+    },
+    "graphMenu": {
+      "title": "Graph Algorithms",
+      "search": {
+        "title": "Search Algorithms",
+        "bfs": "Breadth-First Search (BFS)",
+        "dfs": "Depth-First Search (DFS)"
+      }
+    },
+    "myData": {
+      "title": "Data Structures",
+      "loading": "Loading...",
+      "graphs": {
+        "title": "Graphs",
+        "addButton": "Add New Graph",
+        "noData": "No graphs found."
+      },
+      "binaryTrees": {
+        "title": "Binary Trees",
+        "addButton": "Add New Binary Tree",
+        "noData": "No binary trees found."
+      }
+    },
+    "newGraph": {
+      "title": "Create New Graph",
+      "labels": {
+        "name": "Graph Name",
+        "isDirected": "Is Directed:",
+        "yes": "Yes",
+        "no": "No",
+        "nodes": "Nodes:",
+        "nodeId": "Node ID",
+        "addNode": "Add Node",
+        "edges": "Edges:",
+        "source": "Source",
+        "target": "Target",
+        "addEdge": "Add Edge",
+        "submit": "Submit Graph"
+      },
+      "errors": {
+        "nameRequired": "Please provide a graph name.",
+        "nodeRequired": "Please add at least one node.",
+        "serverError": "Failed to add graph. Please try again."
+      },
+      "success": "Graph added successfully!"
+    },
+    "newBinary": {
+      "title": "Create New Binary Tree",
+      "labels": {
+        "name": "Tree Name",
+        "nodes": "Nodes:",
+        "nodeId": "Node ID (Number Only)",
+        "addNode": "Add Node",
+        "rootNode": "Root Node",
+        "parentChildRelations": "Parent-Child Relations:",
+        "submit": "Submit Tree"
+      },
+      "errors": {
+        "nameRequired": "Please provide a tree name.",
+        "nodeEmpty": "Node ID cannot be empty.",
+        "invalidRoot": "Invalid root node.",
+        "tooManyChildren": "Node {parent} has more than two children.",
+        "serverError": "Failed to add binary tree. Please try again.",
+        "rootNodeRequired": "Please select a root node.",
+        "noNodes": "Please add at least one node."
+      },
+      "success": "Binary Tree added successfully!"
+    },
+    "home": {
+      "welcome": "Welcome to AlgoLearn",
+      "tagline": "Visualize, learn, and master algorithms like never before. Our tools are designed to simplify complex concepts, making learning engaging and intuitive.",
+      "getStarted": "Get Started",
+      "howItWorks": "How It Works",
+      "description": "AlgoLearn provides a seamless experience for understanding graph and binary tree algorithms. Whether you're studying, preparing for interviews, or exploring for fun:",
+      "points": {
+        "1": "Browse preloaded graphs and trees to visualize their structures and workings.",
+        "2": "Execute popular algorithms like BFS (Breadth-First Search), DFS (Depth-First Search), and more, with step-by-step visualization.",
+        "3": "Create, customize, and save your own data structures to analyze and test scenarios."
+      },
+      "features": {
+        "viewGraphs": {
+          "title": "View Graphs and Trees",
+          "desc": "Explore a variety of preloaded graphs and understand their structures visually.",
+          "btn": "Check out the list!"
+        },
+        "binaryAlgorithms": {
+          "title": "Binary Tree Algorithms",
+          "desc": "Explore binary tree algorithms like insert, search, and sort with interactive visuals.",
+          "btn": "Open"
+        },
+        "graphAlgorithms": {
+          "title": "Graph Algorithms",
+          "desc": "Dive into graph algorithms such as BFS and DFS with step-by-step visualizations.",
+          "btn": "Open"
+        }
+      },
+      "why": {
+        "title": "Why Choose AlgoLearn?",
+        "desc": "Our platform turns algorithm learning into an interactive journey. Whether you're mastering fundamentals or preparing for your next big interview, AlgoLearn provides a hands-on, intuitive experience tailored for all learners.",
+        "btn": "Learn More"
+      },
+      "logoutPrompt": {
+        "text": "Ready to switch accounts or take a break?",
+        "btn": "Logout"
+      },
+      "loginPrompt": {
+        "text": "Want to create your own graphs and binary trees?",
+        "btn": "Login"
+      }
+    }
+  }
+  

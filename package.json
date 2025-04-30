@@ -3,13 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.8",
+    "@mui/material": "^6.4.9",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "aos": "^2.3.4",
+    "axios": "^1.8.3",
+    "cytoscape": "^3.31.2",
+    "d3": "^7.9.0",
+    "framer-motion": "^12.6.0",
+    "react": "^19.1.0",
+    "react-cytoscapejs": "^2.0.0",
+    "react-dom": "^19.1.0",
+    "react-graph-vis": "^1.0.7",
+    "react-router-dom": "^7.5.3",
     "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.5",
+    "vis-network": "^9.1.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }

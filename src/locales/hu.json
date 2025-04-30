@@ -1,0 +1,226 @@
+{
+    "routes": {
+      "Register": "Regisztráció",
+      "Login": "Bejelentkezés",
+      "Binary Menu": "Bináris Fa Algoritmusok",
+      "Graph Menu": "Gráf Algoritmusok",
+      "BFS Visualizer": "BFS Vizualizáló",
+      "DFS Visualizer": "DFS Vizualizáló",
+      "Home": "Főoldal",
+      "My Data": "Adatszerkezetek",
+      "About": "A projektről",
+      "New Graph": "Új Gráf",
+      "New Binary": "Új Bináris Fa",
+      "Node Insertion": "Új Csúcs Beszúrása",
+      "Node Deletion": "Csúcs Törlése",
+      "Node Search": "Csúcs Keresése",
+      "Pre-order Traversal": "Preorder Bejárás",
+      "In-order Traversal": "Inorder Bejárás",
+      "Post-order Traversal": "Postorder Bejárás"
+    },
+    "error":{
+        "nameRequired": "A név megadása kötelező.",
+        "login": "Érvénytelen email cím vagy jelszó.",
+        "register": "Sikertelen regisztráció.",
+        "emailRequired": "Email megadása kötelező.",
+        "emailInvalid": "Adjon meg egy érvényes email címet.",
+        "passwordWeak": "A jelszónak legalább 6 karakterből kell állnia, tartalmazzon kis- és nagybetűt, számot, és speciális karaktert.",
+        "passwordRequired": "Jelszó megadása kötelező.",
+        "passwordMismatch": "A jelszavak nem egyeznek.",
+        "passwordChange": "Az aktuális jelszó helytelen."
+    },
+    "brand": "AlgoLearn",
+    "searchPlaceholder": "Keresés...",
+    "login" : {
+        "title": "Bejelentkezés",
+        "email": "Email",
+        "password": "Jelszó",
+        "notUser": "Nem vagy még felhasználó?",
+        "registerHere": "Regisztrálj itt",
+        "success": "Sikeres bejelentkezés!"
+    },
+    "profile": {
+      "title": "Profilom",
+      "name": "Felhasználónév",
+      "email": "Email",
+      "updateButton": "Profil frissítése",
+      "updateSuccess": "Profil sikeresen frissítve!",
+      "changePassword": "Jelszó megváltoztatása",
+      "oldPassword": "Aktuális Jelszó",
+      "newPassword": "Új jelszó",
+      "confirmPassword": "Új jelszó újra",
+      "changePasswordButton": "Jelszó megváltoztatása",
+      "passwordChangeSuccess": "Jelszó sikeresen megváltoztatva!",
+      "deleteAccount": "Fiók törlése",
+      "deleteConfirmTitle": "Törlés megerősítése",
+      "deleteConfirmMessage": "Biztos benne, hogy törölni szeretné a fiókját? Ez a művelet nem vonható vissza.",
+      "password": "Jelszó",
+      "cancel": "Mégse",
+      "confirmDelete": "Törlés",
+      "deleteSuccess": "Fiók sikeresen törölve."
+    },
+    "register": {
+      "title": "Regisztráció",
+      "name": "Név",
+      "email": "Email",
+      "password": "Jelszó",
+      "passwordAgain": "Jelszó újra",
+      "success": "Felhasználó sikeresen regisztrálva!"
+    },
+    "logout": "Kijelentkezés",
+    "languages": {
+      "english": "Angol",
+      "hungarian": "Magyar"
+    },
+    "about": {
+      "title": "A Projektről",
+      "overview": {
+        "title": "Áttekintés",
+        "description": "Ez a projekt segíti a lelkes tanulókat abban, hogy megismerkedjenek az alapvető bináris keresőfák és gráf algoritmusokkal, lehetővé téve azok animálását egy élvezetes módon."
+      },
+      "features": {
+        "title": "Funkciók",
+        "list": [
+          "Vizualizálja a <strong>BST</strong> (bináris keresőfa) és <strong>Gráf</strong> algoritmusokat az Ön által választott sebességgel.",
+          "Támogatja mind a <strong>irányítatlan</strong>, mind a <strong>irányított</strong> gráfokat.",
+          "Teljesítse a <strong>Regisztrációt</strong>, hogy feltölthessen egyéni adatokat a rendszer használatához.",
+          "Egyéni gráf létrehozásakor hozzáadhat csomópontokat, meghatározhatja, hogy a gráf irányított legyen-e vagy sem, és hozzáadhatja az összes élét a gráfhoz.",
+          "Az egyéni bináris keresőfák csomópontjai hasonlóan működnek, ezután a rendszer generálja a fa összes szükséges információját."
+        ]
+      },
+      "myData": {
+        "title": "Saját Adatok",
+        "description": "Az <strong>Adatszerkezetek</strong> szekcióban kezelheti a rendszer által feltöltött vagy előre definiált gráfokat és fákat. Tekintse meg és fedezze fel az adathalmazait."
+      },
+      "vision": {
+        "title": "Jövőkép",
+        "description": "Ennek az eszköznek a célja, hogy a számítástechnikai fogalmakat megközelíthetőbbé és élvezetesebbé tegye — különösen a vizuális típusú tanulók és az algoritmusok iránt érdeklődők számára.",
+        "footer": "Készült szeretettel és elhivatottsággal informatikai hallgatók, tanárok és kíváncsi elmék számára."
+      }
+    },
+    "binaryMenu": {
+      "title": "Bináris Fa Algoritmusok",
+      "operations": {
+        "title": "Beszúrás, Törlés, Keresés",
+        "insert": "Csomópont Beszúrása",
+        "delete": "Csomópont Törlése",
+        "search": "Csomópont Keresése"
+      },
+      "traversals": {
+        "title": "Bejárások",
+        "preOrder": "Preorder Bejárás",
+        "inOrder": "Inorder Bejárás",
+        "postOrder": "Postorder Bejárás"
+      }
+    },
+    "graphMenu": {
+      "title": "Gráf Algoritmusok",
+      "search": {
+        "title": "Keresési Algoritmusok",
+        "bfs": "Szélességi Bejárás (BFS)",
+        "dfs": "Mélységi Bejárás (DFS)"
+      }
+    },
+    "myData": {
+      "title": "Adatszerkezetek",
+      "loading": "Betöltés...",
+      "graphs": {
+        "title": "Gráfok",
+        "addButton": "Új Gráf Hozzáadása",
+        "noData": "Nem találhatók gráfok."
+      },
+      "binaryTrees": {
+        "title": "Bináris Fák",
+        "addButton": "Új Bináris Fa Hozzáadása",
+        "noData": "Nem találhatók bináris fák."
+      }
+    },
+    "newGraph": {
+      "title": "Új Gráf Létrehozása",
+      "labels": {
+        "name": "Gráf Neve",
+        "isDirected": "Irányított:",
+        "yes": "Igen",
+        "no": "Nem",
+        "nodes": "Csúcsok:",
+        "nodeId": "Csúcs Azonosító",
+        "addNode": "Csúcs Hozzáadása",
+        "edges": "Élek:",
+        "source": "Forrás",
+        "target": "Cél",
+        "addEdge": "Él Hozzáadása",
+        "submit": "Gráf Feltöltése"
+      },
+      "errors": {
+        "nameRequired": "Adja meg a gráf nevét.",
+        "nodeRequired": "Adjon hozzá legalább egy csúcsot.",
+        "serverError": "Nem sikerült hozzáadni a gráfot. Kérjük, próbálja újra."
+      },
+      "success": "A gráf sikeresen hozzáadva!"
+    },
+    "newBinary": {
+      "title": "Új Bináris Fa Létrehozása",
+      "labels": {
+        "name": "Fa Neve",
+        "nodes": "Csúcsok:",
+        "nodeId": "Cúcs Azonosító (Csak Számok)",
+        "addNode": "Csúcs Hozzáadása",
+        "rootNode": "Gyökér csúcs",
+        "parentChildRelations": "Szülő-Gyermek Kapcsolatok:",
+        "submit": "Fa Beküldése"
+      },
+      "errors": {
+        "nameRequired": "Adja meg a fa nevét.",
+        "nodeEmpty": "A csúcs azonosító nem lehet üres.",
+        "invalidRoot": "Érvénytelen gyökér csomópont.",
+        "tooManyChildren": "A szülő csúcsnak több mint két gyermeke van.",
+        "serverError": "Nem sikerült hozzáadni a bináris fát. Kérjük, próbálja újra.",
+        "rootNodeRequired": "Kérjük, válasszon egy gyökér csúcsot.",
+        "noNodes": "Adjon hozzá legalább egy csúcsot."
+      },
+      "success": "A bináris fa sikeresen hozzáadva!"
+    },
+    "home": {
+      "welcome": "Üdvözöl az AlgoLearn",
+      "tagline": "Vizualizáld, tanulj és sajátítsd el az algoritmusokat, mint még soha. Eszközeink segítenek leegyszerűsíteni a bonyolult fogalmakat, hogy a tanulás élvezetes és intuitív legyen.",
+      "getStarted": "Kezdjük el!",
+      "howItWorks": "Hogyan működik?",
+      "description": "Az AlgoLearn zökkenőmentes élményt nyújt a gráfok és bináris fák algoritmusainak megértéséhez. Akár tanulsz, interjúra készülsz vagy csak érdeklődsz:",
+      "points": {
+        "1": "Böngéssz az előre betöltött gráfok és fák között, és vizualizáld azok felépítését.",
+        "2": "Futtasd a népszerű algoritmusokat, mint például a BFS és DFS, lépésről lépésre történő vizualizációval.",
+        "3": "Hozd létre, testre és mentsd el saját adatszerkezeteidet, hogy elemezd és teszteld az eseteket."
+      },
+      "features": {
+        "viewGraphs": {
+          "title": "Gráfok és fák megtekintése",
+          "desc": "Fedezd fel a különféle előre betöltött gráfokat, és értsd meg azok struktúráját vizuálisan.",
+          "btn": "Ugrás a listához"
+        },
+        "binaryAlgorithms": {
+          "title": "Bináris Fa Algoritmusok",
+          "desc": "Fedezd fel a bináris fa algoritmusait, mint a beszúrás, keresés és rendezés.",
+          "btn": "Megnyitás"
+        },
+        "graphAlgorithms": {
+          "title": "Gráf Algoritmusok",
+          "desc": "Merülj el a gráf algoritmusokban, a BFS és DFS lépésenkénti vizualizációjával.",
+          "btn": "Megnyitás"
+        }
+      },
+      "why": {
+        "title": "Miért válaszd az AlgoLearn-t?",
+        "desc": "Platformunk az algoritmus tanulást interaktív élménnyé alakítja. Akár az alapokat szeretnéd elsajátítani, akár egy nagy interjúra készülsz, az AlgoLearn személyre szabott, intuitív tanulási élményt nyújt.",
+        "btn": "Tudj meg többet"
+      },
+      "logoutPrompt": {
+        "text": "Szeretnél fiókot váltani vagy szünetet tartani?",
+        "btn": "Kijelentkezés"
+      },
+      "loginPrompt": {
+        "text": "Szeretnél saját gráfokat és bináris fákat létrehozni?",
+        "btn": "Bejelentkezés"
+      }
+    }
+  }
+  
